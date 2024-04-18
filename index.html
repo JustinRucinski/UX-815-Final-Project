@@ -26,12 +26,12 @@
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6" class="hidden md:block w-5 cursor-pointer">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
               </svg>
-            <div class="space-y-1 md:hidden cursor-pointer">
+            <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20">
                 <div class="w-6 h-0.5 bg-black"></div>
                 <div class="w-6 h-0.5 bg-black"></div>
                 <div class="w-6 h-0.5 bg-black"></div>
             </div>  
-            <ul class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center">
+            <ul id="menu" class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center">
                 <li><a href="#" class="text-indigo-900">Home</a></li>
                 <li><a href="about">About</a></li>
                 <li><a href="portfolio">Portfolio</a></li>
@@ -41,5 +41,6 @@
          <!-- intro -->
          <div></div> 
     </div>
+    <script src="./app.js"></script>
 </body>
 </html>
