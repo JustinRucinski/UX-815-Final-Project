@@ -13,13 +13,29 @@
     <div class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 to-white">
        <!-- navbar -->
        <nav class="fixed top-0 bg-white w-full">
-        <div class="container mx-auto py-5 flex justify-between">
+        <div class="container mx-auto py-5 flex items-center justify-between">
             <div class="flex items-center gap-2">
-                <img class="w-8" src="https://www.adaptivewfs.com/wp-content/uploads/2020/07/logo-placeholder-image.png" alt="LOGO">
-                <span class="text-2xl font-bold text-indigo-900">Justin Rucinski</span>
+                <img class="w-10" src="https://www.adaptivewfs.com/wp-content/uploads/2020/07/logo-placeholder-image.png" alt="LOGO">
+                <span class="text-2xl font-bold text-indigo-900 uppercase">Justin Rucinski</span>
             </div>
-        <span>2</span>
-        <span>3</span>
+            <ul class="hidden md:flex space-x-10 text-gray-600 font-bold text-sm uppercase">
+                <li class="hover:text-gray-500"><a href="#" class="text-indigo-900">Home</a></li>
+                <li class="hover:text-gray-500"><a href="about">About</a></li>
+                <li class="hover:text-gray-500"><a href="portfolio">Portfolio</a></li>
+            </ul>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6" class="hidden md:block w-5 cursor-pointer">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+              </svg>
+            <div class="space-y-1 md:hidden cursor-pointer">
+                <div class="w-6 h-0.5 bg-black"></div>
+                <div class="w-6 h-0.5 bg-black"></div>
+                <div class="w-6 h-0.5 bg-black"></div>
+            </div>  
+            <ul class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center">
+                <li><a href="#" class="text-indigo-900">Home</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="portfolio">Portfolio</a></li>
+            </ul>
         </div>
        </nav>
          <!-- intro -->
