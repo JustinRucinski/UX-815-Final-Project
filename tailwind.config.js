@@ -12,9 +12,12 @@ module.exports = {
       height: {
         '640': '40rem',
     },
+    width: {
+      '640': '40rem',
+  },
     fontFamily: {
       'inter': ['Inter', 'sans-serif'],
-    }
+    },
   },
   plugins: [],
 }}
