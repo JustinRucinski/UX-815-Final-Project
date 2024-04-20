@@ -9,12 +9,6 @@ module.exports = {
       spacing: {
         "big": "48rem"
       },
-      height: {
-        '640': '40rem',
-    },
-    width: {
-      '640': '40rem',
-  },
     fontFamily: {
       'inter': ['Inter', 'sans-serif'],
     },
